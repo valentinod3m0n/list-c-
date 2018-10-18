@@ -89,6 +89,7 @@ void List<T>::InsertFirst(T item){
     if (this->num_items == 0){
         this->last = new_item;
     }
+
     this->first = new_item;
     this->num_items++;
 }
@@ -107,6 +108,8 @@ void List<T>::InsertLast(T item){
         new_item->setPrevious(this->last);
         this->last = new_item;
     }
+    
+    this->num_items++;
 }
 
 template <class T>
@@ -121,12 +124,10 @@ void List<T>::GoThrough(){
     int i = 0;
 
     while(aux_node != nullptr){
-	std::cout << "Item " << i << ": ";
+        std::cout << "Item " << i << ": ";
         std::cout << aux_node->getItem() << std::endl;
-	if (aux_node != this->first) std::cout << "Anterior: " << aux_node->getPrevious()->getItem() << std::endl;
-	if (aux_node != this->last) std::cout << "Siguiente: " << aux_node->getNext()->getItem() << std::endl;
         aux_node = aux_node->getNext();
-	i++;
+        i++;
     }
 }
 

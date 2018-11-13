@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/valentinod3m0n/Code/list-c-/list.cc
+
+/home/valentinod3m0n/Code/list-c-/list.h
+iostream
+-
+assert.h
+-
+list_node.h
+/home/valentinod3m0n/Code/list-c-/list_node.h
+
+/home/valentinod3m0n/Code/list-c-/list_node.cc
+
+/home/valentinod3m0n/Code/list-c-/list_node.h
+assert.h
+-
+
+/home/valentinod3m0n/Code/list-c-/main.cc
+iostream
+-
+list.h
+/home/valentinod3m0n/Code/list-c-/list.h
+

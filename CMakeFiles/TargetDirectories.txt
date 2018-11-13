@@ -1,0 +1,3 @@
+/home/valentinod3m0n/Code/list-c-/CMakeFiles/rebuild_cache.dir
+/home/valentinod3m0n/Code/list-c-/CMakeFiles/list.dir
+/home/valentinod3m0n/Code/list-c-/CMakeFiles/edit_cache.dir
